@@ -120,3 +120,45 @@ function App() {
 }
 
 export default App
+
+import React from 'react';
+// Step 1: Single parent element (div)
+    <div>
+      {/* Step 1: Custom H1 */}
+      <h1>This is Wajih's react project</h1>
+      <div>
+function App() {
+  // Step 2: Internal variable
+  const studentName = "Wajih Abbassi";
+
+// Step 3: Outside variable (Scope: Global to this module)
+const courseTitle = "Modern Frontend Development";
+{/* Step 4: Dynamic Content */}
+      <p>Welcome to {courseTitle}, {studentName}!</p>
+
+{/* Step 5: Form Elements */}
+      <div>
+        <label htmlFor="user-input">Quick Note: </label>
+        <input id="user-input" type="text" />
+      </div>
+
+{/* Step 6: Displaying Object Properties */}
+      <section>
+        <h3>Student Profile</h3>
+        <p>Name: {student.name}</p>
+        <p>Age: {student.age}</p>
+        <p>Track: {student.track}</p>
+      </section>
+
+{/* Step 7: Executing a function */}
+      <p><em>{sayHello()}</em></p>
+    </div>
+
+/* 
+Step 8 – Reflection
+- Well understood: JSX syntax and using curly braces for variables.
+- Confusing: The difference between internal and external variable performance.
+- Mistake: Tried to render {student} directly and got an "Objects are not valid as a React child" error.
+*/
+
+export default App;
