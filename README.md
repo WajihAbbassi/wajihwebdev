@@ -1,16 +1,37 @@
-# React + Vite
+# Hacker News React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application built progressively over 9 weeks as part of a Web Development course.
 
-Currently, two official plugins are available:
+## What it does
+- Searches real Hacker News stories via the Algolia API
+- Filters results dynamically
+- Removes stories from the list
+- Persists search term using localStorage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React (Vite)
+- JavaScript (ES6+)
+- HTML & CSS
+- Git & GitHub
 
-## React Compiler
+## Sources used
+-I faced many problems and had to use Artificial Intelligence to:
+  -Understand what I did wrong.
+  -Understand why it was wrong.
+  -Fix it properly.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## What I learned
+- React fundamentals: components, props, state
+- Hooks: useState, useEffect
+- Data fetching from a real API
+- Component composition and reusability
+- Git workflow and GitHub Pages deployment
 
-## Expanding the ESLint configuration
+## How to run locally
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
+4. Open `http://localhost:5173`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Author
+Wajih Abbassi
